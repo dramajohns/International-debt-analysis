@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "project_bi", "project_bi\project_bi.dtproj", "{832B3F9A-02AC-45BB-9888-C6DB1D97A747}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ProjectBI_Analysis", "..\..\analysis\ProjectBI_Analysis\ProjectBI_Analysis\ProjectBI_Analysis.dwproj", "{DDF034B0-EF21-4995-873F-C73D15BD5634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{832B3F9A-02AC-45BB-9888-C6DB1D97A747}.Development|Default.ActiveCfg = Development
+		{832B3F9A-02AC-45BB-9888-C6DB1D97A747}.Development|Default.Build.0 = Development
+		{DDF034B0-EF21-4995-873F-C73D15BD5634}.Development|Default.ActiveCfg = Development
+		{DDF034B0-EF21-4995-873F-C73D15BD5634}.Development|Default.Build.0 = Development
+		{DDF034B0-EF21-4995-873F-C73D15BD5634}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

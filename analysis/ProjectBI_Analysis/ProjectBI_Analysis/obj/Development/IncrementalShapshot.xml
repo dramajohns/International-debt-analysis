@@ -1,0 +1,68 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProjectBI_Analysis</Database>
+    <Server>LAPTOP-7EVLCB5O\FEDISQLSERVER</Server>
+    <ConnectionString>DataSource=LAPTOP-7EVLCB5O\FEDISQLSERVER;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>QzaebIGkjsJ7ioDHp7waeo9Ylw8=3/22/2022 9:16:25 PM3/22/2022 9:16:25 PM</TimeStamp>
+        <ID>
+          <String>BI_Dw</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>NcixOsP4ksnKkt3mJW3wU34c2rE=3/25/2022 10:14:43 PM3/22/2022 9:17:11 PM</TimeStamp>
+        <ID>
+          <String>BI_Dw_SV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wMnRJoXA+DEhXopypcoPADv3TKo=3/22/2022 9:18:35 PM3/22/2022 9:18:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Years</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SHDrF+aFI+YME+sN9V5BsHoQwxU=4/1/2022 2:55:31 PM3/22/2022 9:18:35 PM</TimeStamp>
+        <ID>
+          <String>Dim Countries</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>iGVtO6gVzbpSBZjVAFYkurqm4hU=4/1/2022 4:21:09 PM3/22/2022 9:18:35 PMTU99Ye1+j1CPnNq3U2JTCCGkpHo=3/22/2022 9:18:35 PM3/22/2022 9:18:35 PM</TimeStamp>
+        <ID>
+          <String>BI_Dw_SV</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>sMZW7U6OVaZGWfWdtl9cTXcQziw=3/22/2022 5:51:17 PM3/22/2022 5:51:17 PM</TimeStamp>
+      <ID>
+        <String>ProjectBI_Analysis</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-04-03T21:10:49.666667Z</LastDeployed>
+</DeploymentSnapshot>
